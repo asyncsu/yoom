@@ -3,6 +3,7 @@
 // 2. cuz basepath it impact to image path loading
 // 2.1 use direct import image to variable and assign it to src prop of Image component
 // 2.2 OR import nextConfig for basePath and use it as {`${nextConfig.basePath}/next.svg`}
+// 3. Add .nojekyll to root of basePath to tell GitHub Pages to not use jekyll 
 
 import Image from "next/image";
 
