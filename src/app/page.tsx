@@ -1,7 +1,10 @@
+import nextConfig from '../../next.config.mjs';
 import Image from "next/image";
 
-import nextConfig from '../../next.config.mjs';
+import { Button } from "@/components/ui/button";
+
 import imgVercel from '../../public/vercel.svg';
+
 
 export default function Home() {
   return (
@@ -112,6 +115,7 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <Button>Testing</Button>
     </main>
   );
 }
